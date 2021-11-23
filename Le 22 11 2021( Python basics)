@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Nov 22 17:41:02 2021
+
+@author: sepc
+"""
+print(' Bienvenu dans spyder ')
+print( "Spyder á 3 feneteres")
+print(1+ 2)
+
+### Variables in python 
+
+x = 3 # type int 
+y = 2.5 # type float
+prenom = 'Ebnou Abdem Seyid Abdellahi ' # type string
+z = True # type Bool
+
+# afficher ces variables 
+print(prenom, x, y,z)
+
+### types of variables 
+print(type(x), type(y), type(prenom), type(z))
+
+### Arithmetique 
+print('x + y =', x + y)
+print('x - y =', x - y)
+print('x / y =', x / y)
+print('x * y =', x * y)
+print('x ^ y =', x ** y) # x puissance y
+
+# Les operations de la comparaison 
+print('égalité :', x == y)
+print('inégalité :', x != y)
+print('inférieur ou égal :', x <= y)
+print('supérieur ou égal :', x >= y)
+
+# operations logique 
+print('ET :', False and True)
+print('OU :', False or True)
+print('OU exclusif :', False ^ True)
+
+# 
+print(len(prenom))
+
+
+# Les fonctions 
+def nom_de_la_fonction( argument_1, argument_2, argument_n):
+    resultat= argument_1+ argument_2+ argument_n# instructions 
+    return resultat# exactement dans R
+
+
+print(nom_de_la_fonction(2,3,4))
+
+
+# 
+def produit(x,y):
+    print(x*y)
+produit(2, 4)
+
